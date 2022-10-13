@@ -1,0 +1,21 @@
+﻿<Window x:Class="Cursun.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cursun"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Цифровой водяной знак" Height="405" Width="805" WindowStartupLocation="CenterScreen" Closed="Window_Closed" ResizeMode="NoResize" Icon="free-icon-cloud-network-8637953.ico">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/63f5a466aae9ad295925078ab628af80.jpg"/>
+        </Grid.Background>
+        <Button x:Name="read" Content="Прочитать" HorizontalAlignment="Left" Margin="139,10,0,0" VerticalAlignment="Top" Width="124" FontFamily="Impact" FontSize="18" BorderBrush="{x:Null}" Foreground="White" Background="#FF50B9E9" Click="read_Click"/>
+        <Button x:Name="write" Content="Записать" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="124" FontFamily="Impact" FontSize="18" BorderBrush="{x:Null}" Foreground="White" Background="#FF50B9E9" Click="write_Click"/>
+        <Image x:Name="imagebox" HorizontalAlignment="Left" Height="320" Margin="10,50,0,0" VerticalAlignment="Top" Width="400" OpacityMask="Black" Stretch="Uniform"/>
+
+        <TextBox x:Name="tb" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Left" Margin="415,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="320" Width="370" FontFamily="Impact" FontSize="18" Foreground="White" IsReadOnly="True"></TextBox>
+
+    </Grid>
+</Window>
