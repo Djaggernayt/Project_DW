@@ -15,32 +15,32 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0E7A21C6C4B0407A958A5E850905026C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_3721AADBC5C5D5B332F2D48C35558596"
         "OwnerKey" = "8:_DC8977D269CA4B2D94D1C9958C5CD59D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8E5AC4915A4674F058D6DC5DFFCA35B4"
+        "MsmKey" = "8:_373AD20DEFDC8E41BA8E8553D964271E"
         "OwnerKey" = "8:_DC8977D269CA4B2D94D1C9958C5CD59D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_CD34FD2F58EEB6CB8DEC438D12D8DD44"
-        "OwnerKey" = "8:_DC8977D269CA4B2D94D1C9958C5CD59D"
+        "MsmKey" = "8:_373AD20DEFDC8E41BA8E8553D964271E"
+        "OwnerKey" = "8:_9263F71B2D9D72A05C586C38FEB90A3F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_CD34FD2F58EEB6CB8DEC438D12D8DD44"
-        "OwnerKey" = "8:_8E5AC4915A4674F058D6DC5DFFCA35B4"
+        "MsmKey" = "8:_6FC652D6263843FE9D0A7DD654D75CE1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9263F71B2D9D72A05C586C38FEB90A3F"
+        "OwnerKey" = "8:_DC8977D269CA4B2D94D1C9958C5CD59D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -58,13 +58,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8E5AC4915A4674F058D6DC5DFFCA35B4"
+        "OwnerKey" = "8:_9263F71B2D9D72A05C586C38FEB90A3F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CD34FD2F58EEB6CB8DEC438D12D8DD44"
+        "OwnerKey" = "8:_373AD20DEFDC8E41BA8E8553D964271E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -168,26 +168,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E7A21C6C4B0407A958A5E850905026C"
-            {
-            "SourcePath" = "8:..\\..\\free-icon-cloud-network-8637953.ico"
-            "TargetName" = "8:icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_75829910A8F54C1688D48B7B32E00DB6"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3721AADBC5C5D5B332F2D48C35558596"
             {
             "AssemblyRegister" = "3:1"
@@ -219,20 +199,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8E5AC4915A4674F058D6DC5DFFCA35B4"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_373AD20DEFDC8E41BA8E8553D964271E"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MaterialDesignThemes.Wpf, Version=4.6.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:MaterialDesignColors, Version=2.0.7.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_8E5AC4915A4674F058D6DC5DFFCA35B4"
+                    "_373AD20DEFDC8E41BA8E8553D964271E"
                     {
-                    "Name" = "8:MaterialDesignThemes.Wpf.dll"
+                    "Name" = "8:MaterialDesignColors.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:MaterialDesignThemes.Wpf.dll"
+            "SourcePath" = "8:MaterialDesignColors.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_75829910A8F54C1688D48B7B32E00DB6"
@@ -250,20 +230,40 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CD34FD2F58EEB6CB8DEC438D12D8DD44"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6FC652D6263843FE9D0A7DD654D75CE1"
+            {
+            "SourcePath" = "8:..\\..\\..\\free-icon-cloud-network-8637953.ico"
+            "TargetName" = "8:icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_75829910A8F54C1688D48B7B32E00DB6"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9263F71B2D9D72A05C586C38FEB90A3F"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MaterialDesignColors, Version=2.0.7.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:MaterialDesignThemes.Wpf, Version=4.6.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_CD34FD2F58EEB6CB8DEC438D12D8DD44"
+                    "_9263F71B2D9D72A05C586C38FEB90A3F"
                     {
-                    "Name" = "8:MaterialDesignColors.dll"
+                    "Name" = "8:MaterialDesignThemes.Wpf.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:MaterialDesignColors.dll"
+            "SourcePath" = "8:MaterialDesignThemes.Wpf.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_75829910A8F54C1688D48B7B32E00DB6"
@@ -366,7 +366,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_0E7A21C6C4B0407A958A5E850905026C"
+        "ARPPRODUCTICON" = "8:_6FC652D6263843FE9D0A7DD654D75CE1"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -480,7 +480,7 @@
             "Target" = "8:_DC8977D269CA4B2D94D1C9958C5CD59D"
             "Folder" = "8:_76BACC337A92475B9D471F1E63A45AB9"
             "WorkingFolder" = "8:_75829910A8F54C1688D48B7B32E00DB6"
-            "Icon" = "8:_0E7A21C6C4B0407A958A5E850905026C"
+            "Icon" = "8:_6FC652D6263843FE9D0A7DD654D75CE1"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BB15E58D9616462B951A0EED6B4ECE96"
@@ -494,7 +494,7 @@
             "Target" = "8:_DC8977D269CA4B2D94D1C9958C5CD59D"
             "Folder" = "8:_5D40FD7779774AD39B8DE7A12DD8CA83"
             "WorkingFolder" = "8:_75829910A8F54C1688D48B7B32E00DB6"
-            "Icon" = "8:_0E7A21C6C4B0407A958A5E850905026C"
+            "Icon" = "8:_6FC652D6263843FE9D0A7DD654D75CE1"
             "Feature" = "8:"
             }
         }
