@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("png-transparent-computer-icons-sales-symbol-business-watermark-miscellaneous-angl" +
-    "e-text-photoroom.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/free-icon-cloud-network-8637953.jpg")]
 
 

@@ -13,9 +13,10 @@
         </Grid.Background>
         <Button x:Name="read" Content="Прочитать" HorizontalAlignment="Left" Margin="139,10,0,0" VerticalAlignment="Top" Width="124" FontFamily="Impact" FontSize="18" BorderBrush="{x:Null}" Foreground="White" Background="#FF50B9E9" Click="read_Click"/>
         <Button x:Name="write" Content="Записать" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="124" FontFamily="Impact" FontSize="18" BorderBrush="{x:Null}" Foreground="White" Background="#FF50B9E9" Click="write_Click"/>
-        <Image x:Name="imagebox" HorizontalAlignment="Left" Height="320" Margin="10,50,0,0" VerticalAlignment="Top" Width="400" OpacityMask="Black" Stretch="Uniform"/>
+        <Image x:Name="imagebox" HorizontalAlignment="Left" Height="310" Margin="10,50,0,0" VerticalAlignment="Top" Width="400" OpacityMask="Black" Stretch="Uniform"/>
 
         <TextBox x:Name="tb" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Left" Margin="415,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="320" Width="370" FontFamily="Impact" FontSize="18" Foreground="White" IsReadOnly="True"></TextBox>
+        <Button x:Name="mess" Content="?" HorizontalAlignment="Left" Margin="738,2,0,0" VerticalAlignment="Top" Width="45" Click="mess_Click" Background="{x:Null}" FontSize="24" Height="45" BorderBrush="White" Cursor="Hand"/>
 
     </Grid>
 </Window>

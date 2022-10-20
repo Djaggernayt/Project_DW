@@ -167,6 +167,8 @@ namespace Cursun
         public MainWindow()
         {
             InitializeComponent();
+
+
         }
 
         private void write_Click(object sender, RoutedEventArgs e)
@@ -503,6 +505,12 @@ namespace Cursun
         private void Window_Closed(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void mess_Click(object sender, RoutedEventArgs e)
+        {
+            About a = new About();
+            a.Show();
         }
     }
 }

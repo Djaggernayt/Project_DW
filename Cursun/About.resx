@@ -117,11 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="png-transparent-drawing-question-blue-text-trademark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\png-transparent-drawing-question-blue-text-trademark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="free-icon-cloud-network-8637953" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-icon-cloud-network-8637953.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="textBoxDescription.Text" xml:space="preserve">
+    <value>Руководство: 
+1.Кнопка «Записать» запускает выбор файлов изображения, текстового документа, а после чего сохраняет получившийся результат в виде изображения, выгружая результаты на форму.
+2.Кнопка «Прочитать» запускает процесс выбора зашифрованного изображения, после чего расшифровывает его и записывает результат в текстовый файл, выгружая результаты на форму.
+</value>
   </data>
 </root>
