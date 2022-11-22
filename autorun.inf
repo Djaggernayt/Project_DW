@@ -1,0 +1,7 @@
+[AutoRun.Amd64]
+open=DW\Debug\setup.exe
+icon=Cursun\ic.ico,0
+
+[AutoRun]
+open=DW\Debug\setup.exe x64
+icon=Cursun\ic.ico,0
